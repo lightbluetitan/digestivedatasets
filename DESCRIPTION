@@ -1,7 +1,7 @@
 Package: DigestiveDataSets
 Type: Package
 Title: A Curated Collection of Digestive System and Gastrointestinal Disease Datasets
-Version: 0.1.0
+Version: 0.2.0
 Maintainer: Renzo Caceres Rossi <arenzocaceresrossi@gmail.com>
 Description: Provides an extensive and curated collection of datasets related to the digestive system, stomach, intestines, liver, pancreas, and associated diseases. 
     This package includes clinical trials, observational studies, experimental datasets, cohort data, and case series involving gastrointestinal disorders such as gastritis, ulcers, pancreatitis, liver cirrhosis, colon cancer, colorectal conditions, Helicobacter pylori infection, irritable bowel syndrome, intestinal infections, and post-surgical outcomes.
@@ -9,7 +9,7 @@ Description: Provides an extensive and curated collection of datasets related to
     Designed for researchers, clinicians, data scientists, students, and educators interested in digestive diseases, the package facilitates reproducible analysis, modeling, and hypothesis testing using real-world and historical data.
 License: GPL-3
 Language: en
-URL: https://github.com/lightbluetitan/digestivedatasets
+URL: https://github.com/lightbluetitan/digestivedatasets, https://lightbluetitan.github.io/digestivedatasets/
 BugReports: https://github.com/lightbluetitan/digestivedatasets/issues
 Encoding: UTF-8
 LazyData: true
@@ -27,7 +27,8 @@ Authors@R:
         given = "Renzo",
         family = "Caceres Rossi",
         role = c("aut", "cre"),
-        email = "arenzocaceresrossi@gmail.com"
+        email = "arenzocaceresrossi@gmail.com",
+        comment = c(ORCID = "0009-0005-0744-854X")
     )
 RoxygenNote: 7.3.2
 Config/testthat/edition: 3
